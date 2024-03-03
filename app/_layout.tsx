@@ -44,8 +44,15 @@ function RootLayoutNav() {
       <Stack.Screen
         name="otp"
         options={{
-          headerTitle: "Enter your phone number",
+          headerTitle: "Enter Your Phone Number",
           headerBackVisible: false,
+        }}
+      />
+      <Stack.Screen
+        name="verify/[phone]"
+        options={{
+          headerTitle: "Verify Your Phone Number",
+          headerBackTitle: "Edit number",
         }}
       />
     </Stack>
